@@ -2,35 +2,43 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/rex/mainLogo.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <title>RexBag</title>
     
     <script type="module" crossorigin src="/rex/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/rex/assets/index-43d8b94a.css">
+    <link rel="stylesheet" href="/rex/assets/index-e90e350f.css">
   </head>
   <body>
-    <header class="header">
+    <header class="header" id="header">
   <div class="container wrapperHeader">
     <a href="/" class="mainLogo">
       <svg class="svgMainLogo">
-        <use href="/rex/assets/icons-a064d3c6.svg#icon-mainLogo"></use>
+        <use href="/rex/assets/icons-4986381a.svg#icon-mainLogo"></use>
       </svg>
     </a>
     <nav class="headerNav">
       <ul class="headerNavList">
-        <li class="li-headerNav"></li>
-        <li class="li-headerNav"></li>
-        <li class="li-headerNav"></li>
-        <li class="li-headerNav"></li>
+        <li class="li-headerNav">
+          <a href="#" class="navigationHeaderLink">Home</a>
+        </li>
+        <li class="li-headerNav">
+          <a href="#" class="navigationHeaderLink">Help</a>
+        </li>
+        <li class="li-headerNav">
+          <a href="#" class="navigationHeaderLink">Privacy Policy</a>
+        </li>
+        <li class="li-headerNav">
+          <a href="#" class="navigationHeaderLink">Terms of Use</a>
+        </li>
       </ul>
     </nav>
 
     <div class="wrapperHeaderLogin">
-      <button class="logInBtn">Log In</button>
-      <button class="createProfile">Create Profile
+      <button type="button" class="logInBtn">Log In</button>
+      <button type="button" class="createProfileBtn">Create Profile
         <svg class="userCreateProfile">
-          <use href="/rex/assets/icons-a064d3c6.svg#icon-userCreateProfile"></use>
+          <use href="/rex/assets/icons-4986381a.svg#icon-userCreateProfile"></use>
         </svg>
       </button>
     </div>
@@ -41,14 +49,235 @@
 
     <main class="main">
 
-      
-      
-      
-      
+      <section class="hero">
+    <div class="container wrapperHero">
+        <article class="wrapperMainTitle">
+
+            <h1 class="mainTitle">Crypto portfolio 
+            <span class="span-mainTitle"></span>
+            <span class="andMainTitle"></span>price</h1>
+
+            <p class="textMainHero">Track all crypto and portfolios in one app. Тут можна про податки написати</p>
+
+            <div class="wrapperRegistrationCoins">
+                <button type="button" class="registrationBtn">
+                    Registration
+                </button>
+                <a href="#" class="linkToCoinsList">
+                    Coin List <svg class="svgCoinListArrowRight" width="24" height="24">
+                        <use href="/rex/assets/icons-4986381a.svg#icon-coinListArrowRight"></use>
+                    </svg>
+                </a>
+            </div>
+
+        </article>
+
+        <div class="wrapperMainHeroImg">
+            <img src="../img/imgMainHero.webp" alt="Crypto">
+        </div>
+    </div>
+</section>
+      <section class="about" id="about">
+    <div class="container wrapperAbout">
+        <article class="aboutCard aboutCardSimple">
+            <div class="wrapperAboutTitle">
+                <h2 class="aboutTitle">Simple taxing</h2>
+                <p class="textAboutTitle">3 steps to calculate your crypto tax report</p>
+            </div>
+            <ul class="cardAbout">
+                <li class="aboutListCard">
+                    <h3 class="titleListCard">Import transactions</h3>
+                    <p class="textListCard">Import your transactions from your crypto exchanges, cold wallets</p>
+                </li>
+                <li class="aboutListCard">
+                    <h3 class="titleListCard">Preview your report</h3>
+                    <p class="textListCard">Review your transactions and tag them. Review your transactions and tag them</p>
+                </li>
+                <li class="aboutListCard">
+                    <h3 class="titleListCard">Generate your report</h3>
+                    <p class="textListCard">Get your ready report for the tax office. You can download it for yourself and edit it according to your requirements</p>
+                </li>
+            </ul>
+        </article>
+        <article class="aboutCard aboutCardPortfolio">
+            <div class="wrapperAboutTitle">
+                <h2 class="aboutTitle">Portfolio tracker</h2>
+                <p class="textAboutTitle">Track your crypto portfolios thanks</p>
+            </div>
+            <ul class="cardAbout">
+                <li class="aboutListCard">
+                    <h3 class="titleListCard">Crypto Portfolio</h3>
+                    <p class="textListCard">Data within a portfolio, such as the number of coins and their current value, are synchronized</p>
+                </li>
+                <li class="aboutListCard">
+                    <h3 class="titleListCard">Coins</h3>
+                    <p class="textListCard">Track coin prices and history. Analyze information about coins and predict their exchange rates</p>
+                </li>
+                <li class="aboutListCard">
+                    <h3 class="titleListCard">Price Alerts</h3>
+                    <p class="textListCard">By using the significant coin price change rule, you will be aware of important changes in the cryptocurrency market</p>
+                </li>
+            </ul>
+        </article>
+    </div>
+</section>
+      <section class="comunicate">
+    <div class="container wrapperComunicate">
+        <article class="wrapperComunicateTitle">
+            <h2 class="titleComunicate"><span class="spanComunicateTitle">Comunicate</span>
+            </span> in the cryptocurrency <span class="spanComunicateTitle">community</span>
+            </span></h2>
+            <p class="textTitleComunicate">Our micro-blogging platform is designed for people in the cryptocommunity. Share, get information from micro-blogs</p>
+        </article>
+        <div class="wrapperComunicateCard">
+            <article class="titleTextComunicateCard">
+                <div class="wrapperSvgComunicateCard">
+                    <svg class="svgComunicateCard" width="120" height="120">
+                        <use href="/rex/assets/icons-4986381a.svg#icon-personComunicateCard"></use>
+                    </svg>
+                </div>
+                <h3 class="titleComunicateCard">Get Paid Subscribers</h3>
+                <p class="textComunicateCard">Don't let your quality content go unnoticed. With our platform, your insights can garner a dedicated following. Users can subscribe to your micro-blogs</p>
+            </article>
+        </div>
+        <div class="wrapperComunicateCard">
+            <article class="titleTextComunicateCard">
+                <div class="wrapperSvgComunicateCard">
+                    <svg class="svgComunicateCard" width="120" height="120">
+                        <use href="/rex/assets/icons-4986381a.svg#icon-chatComunicateCard"></use>
+                    </svg>
+                </div>
+                <h3 class="titleComunicateCard">Micro-bloggin</h3>
+                <p class="textComunicateCard">Dive deep into the pulse of the cryptocurrency world with our tailored micro-blogging platform. Whether you're an experienced trader</p>
+            </article>
+        </div>
+        <div class="wrapperComunicateCard">
+            <article class="titleTextComunicateCard">
+                <div class="wrapperSvgComunicateCard">
+                    <svg class="svgComunicateCard" width="120" height="120">
+                        <use href="/rex/assets/icons-4986381a.svg#icon-markComunicateCard"></use>
+                    </svg>
+                </div>
+                <h3 class="titleComunicateCard">Earn Rewards for</h3>
+                <p class="textComunicateCard">Your expertise and insights are valuable. Why not get rewarded for it? Share your crypto-portfolio or make price predictions, and earn rewards</p>
+            </article>
+        </div>
+    </div>
+</section>
+      <section class="getStart" id="getStart">
+    <div class="container wrapperGetStart">
+        <h2 class="titleGetStart">Earn Rewards for Sharing Your <span class="spanTitleGetStart">Crypto-Portfolio</span> and <span class="spanTitleGetStart">Price Predicts</span></h2>
+        <button class="getStartBtn" type="button">Get Started</button>
+    </div>
+</section>
+      <section class="advantages" id="advantages">
+    <div class="container">
+        <h2 class="titleAdvantages">Advantages</h2>
+        <ul class="wrapperAdvantages">
+            <li class="advantagesCard">
+                <div class="wrapperAdvantagesCardSVG">
+
+                </div>
+                <h3 class="titleAdvantagesCard">Own Independent Infrastructure</h3>
+                <p class="textAdvantagesCard">A robust, self-reliant system ensuring continuous operation without relying on third-party services</p>
+            </li>
+            <li class="advantagesCard">
+                <h3 class="titleAdvantagesCard">BigData</h3>
+                <p class="textAdvantagesCard">Comprehensive collection, processing, and storage of rates, coin info, exchange data, and blockchain specifics for in-depth analysis</p>
+            </li>
+            <li class="advantagesCard">
+                <h3 class="titleAdvantagesCard">Smart Data Calculation</h3>
+                <p class="textAdvantagesCard">Streamlined computation for your tax obligations and portfolio analysis, making financial management a breeze</p>
+            </li>
+            <li class="advantagesCard">
+                <h3 class="titleAdvantagesCard">Real-time Currency Rates</h3>
+                <p class="textAdvantagesCard">Stay updated with live price feeds, ensuring you never miss a market move</p>
+            </li>
+            <li class="advantagesCard">
+                <h3 class="titleAdvantagesCard">Community Communication & Support</h3>
+                <p class="textAdvantagesCard">Ngage with our dedicated project community and enjoy unwavering support for all your queries</p>
+            </li>
+            <li class="advantagesCard">
+                <h3 class="titleAdvantagesCard">Own Crypto-Community</h3>
+                <p class="textAdvantagesCard">A vibrant, dedicated crypto community space, promoting knowledge exchange, networking, and collaboration</p>
+            </li>
+            <li class="advantagesCard">
+                <h3 class="titleAdvantagesCard">Paid API for Developers</h3>
+                <p class="textAdvantagesCard">A premium API suite catering to developers, offering tools and data access for enhanced functionalities</p>
+                <div class="wrapperAdvantagesCardSVG">
+                    
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
 
     </main>
 
-    
+    <footer class="footer" id="footer">
+    <div class="container">
+        <ul class="wrapperFooterLogoSocial">
+            <li class="footerLogoText">
+                <a href="/" class="mainLogo">
+                    <svg class="svgMainLogo">
+                        <use href="/rex/assets/icons-4986381a.svg#icon-mainLogo"></use>
+                    </svg> RexBag
+                </a>
+            </li>
+            <li class="wrapperfooterSocial">
+                <a href="#" class="footerSocialLink"><svg class="svgSocialIcon" width="32" height="32">
+                    <use href="/rex/assets/icons-4986381a.svg#icon-telegram"></use>
+                </svg></a>
+                <a href="#" class="footerSocialLink"><svg class="svgSocialIcon" width="32" height="32">
+                    <use href="/rex/assets/icons-4986381a.svg#icon-facebook"></use>
+                </svg></a>
+                <a href="#" class="footerSocialLink"><svg class="svgSocialIcon" width="32" height="32">
+                    <use href="/rex/assets/icons-4986381a.svg#icon-twitter"></use>
+                </svg></a>
+                <a href="#" class="footerSocialLink"><svg class="svgSocialIcon" width="32" height="32">
+                    <use href="/rex/assets/icons-4986381a.svg#icon-mail"></use>
+                </svg></a>
+            </li>
+        </ul>
+        <ul class="footerNav">
+            <li class="footerNavList">
+                <h2 class="titleFooterNavList">About Us</h2>
+                <a href="#" class="footerNavigationLink">Support</a>
+                <a href="#" class="footerNavigationLink">Request Form</a>
+                <a href="#" class="footerNavigationLink">Contact Support</a>
+            </li>
+            <li class="footerNavList">
+                <h2 class="titleFooterNavList">About Us</h2>
+                <a href="#" class="footerNavigationLink">Products</a>
+                <a href="#" class="footerNavigationLink">Company</a>
+                <a href="#" class="footerNavigationLink">About Us</a>
+            </li>
+            <li class="footerNavList">
+                <h2 class="titleFooterNavList">About Us</h2>
+                <a href="#" class="footerNavigationLink">Community</a>
+                <a href="#" class="footerNavigationLink">Our blog</a>
+                <a href="#" class="footerNavigationLink">Sitemap</a>
+            </li>
+            <li class="footerNavList">
+                <h2 class="titleFooterNavList">About Us</h2>
+                <a href="#" class="footerNavigationLink">Portfolio</a>
+                <a href="#" class="footerNavigationLink">Tax for crypto-portfolio</a>
+                <a href="#" class="footerNavigationLink">Crypto Prices</a>
+            </li>
+            <li class="footerNavList">
+                <h2 class="titleFooterNavList">About Us</h2>
+                <a href="#" class="footerNavigationLink">Terms of Use</a>
+                <a href="#" class="footerNavigationLink">Cookie preferences</a>
+                <a href="#" class="footerNavigationLink">Privacy Policy</a>
+            </li>
+            <li class="footerNavList">
+                <h2 class="titleFooterNavList">About Us</h2>
+                <a href="#" class="footerNavigationLink">Disclaimer</a>
+                <a href="#" class="footerNavigationLink">Faq</a>
+            </li>
+        </ul>
+    </div>
+</footer>
 
 
     
