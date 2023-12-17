@@ -58,12 +58,12 @@
 
 html {
 scroll-behavior: smooth;
-font-family: 'Jost' sans-serif;
 }
 
 body{
   background-color: #01080E;
   color: #fff;
+  font-family: 'Jost', sans-serif;
 }
 
 h1,
