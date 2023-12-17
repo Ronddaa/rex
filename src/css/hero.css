@@ -1,0 +1,12 @@
+.wrapperHero{
+    display: flex;
+    flex-direction: column;
+}
+
+.mainTitle{
+    font-size: 40px;
+}
+
+.spanMainTitle{
+    
+}

@@ -1,0 +1,21 @@
+.headerNav{
+    display: none;
+}
+
+.wrapperHeaderLogin{
+    display: none;
+}
+
+.wrapperHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header{
+    padding-top: 10px;
+}
+
+.svgMainLogo{
+    fill:  #2CC1F0;
+}
