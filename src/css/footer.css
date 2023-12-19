@@ -1,0 +1,37 @@
+footer{
+    padding-bottom: 30px;
+}
+
+.wrapperFooterLogoSocial{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.spanSvgMainLogoFooter{
+    display: none;
+}
+
+.footerNav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+}
+
+.footerNavList{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.titleFooterNavList{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.footerNavigationLink{
+    color: #446783;
+    font-size: 16px;
+}
+
