@@ -56,5 +56,19 @@
 }
 
 @media (min-width: 768px){
+    .wrapperMainHeroImg{
+        margin-bottom: 40px;
+    }
 
+    .mainTitle{
+        font-size: 64px;
+        max-width: 480px;
+        margin: 0 auto;
+        line-height: 1.2;
+    }
+
+    .textMainHero{
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
 }
