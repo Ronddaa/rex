@@ -66,4 +66,11 @@
 
 @media (min-width: 768px){
 
+    .titleComunicate{
+        font-size: 48px;
+    }
+
+    .textTitleComunicate{
+        font-size: 20px;
+    }
 }
