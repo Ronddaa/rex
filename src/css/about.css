@@ -72,5 +72,18 @@
 }
 
 @media (min-width: 1280px){
-  
+
+    .wrapperAbout{
+        margin: 0 auto;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .wrapperAboutTitle{
+        margin-left: -16px;
+    }
+
+    .aboutCard{
+        max-width: 500px;
+    }
 }
