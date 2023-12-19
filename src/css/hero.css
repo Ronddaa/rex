@@ -74,5 +74,8 @@
 }
 
 @media (min-width: 1280px){
-  
+    .wrapperHero{
+        flex-direction: row-reverse;
+        align-items: center;
+    }
 }
