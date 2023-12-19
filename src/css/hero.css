@@ -5,8 +5,52 @@
 
 .mainTitle{
     font-size: 40px;
+    text-align: center;
 }
 
 .spanMainTitle{
-    
+    display: inline-block;
+    width: 85px;
+    height: 26px;
+    background-color: #111A2C;
+    border-radius: 48px;
+}
+
+.andMainTitle{
+    color: #2C98F0;
+}
+
+.textMainHero{
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+.wrapperRegistrationCoins{
+    display: flex;
+    gap: 28px;
+    justify-content: center;
+}
+
+.registrationBtn{
+    border: 0;
+    border-radius: 48px;
+    background-color: #2C98F0;
+    color: #fff;
+    font-size: 18px;
+    padding: 11px 20px;
+    font-weight: 700;
+}
+
+.linkToCoinsList{
+    display: flex;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    align-items: center;
+    gap: 5px;
+}
+
+.svgCoinListArrowRight{
+    fill: #2C98F0;
 }
