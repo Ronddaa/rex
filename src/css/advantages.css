@@ -1,0 +1,26 @@
+.titleAdvantages{
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.wrapperAdvantages{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.advantagesCard{
+    border-radius: 24px;
+    background-color: rgba(11, 49, 80, 0.24);
+    backdrop-filter: blur(7px);
+    text-align: center;
+    padding: 20px 16px;
+}
+
+.titleAdvantagesCard{
+    color: #2C98F0;
+    font-size: 24px;
+    font-weight: 700;
+}
