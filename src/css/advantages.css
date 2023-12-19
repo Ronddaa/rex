@@ -11,6 +11,10 @@
     gap: 16px;
 }
 
+.advantagesCardNone{
+    display: none;
+}
+
 .advantagesCard{
     border-radius: 24px;
     background-color: rgba(11, 49, 80, 0.24);
@@ -27,4 +31,30 @@
 
 @media (min-width: 768px){
 
+    .advantagesCardNone{
+        display: block;
+    }
+
+    .titleAdvantages{
+        font-size: 48px;
+    }
+
+    .wrapperAdvantages{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(11, 1fr);
+    grid-column-gap: 12px;
+    grid-row-gap: 12px;
+    }
+
+.advantagesCard:first-child { grid-area: 1 / 1 / 6 / 5; }
+.advantagesCard:nth-child(2) { grid-area: 6 / 1 / 8 / 5; }
+.advantagesCard:nth-child(3) { grid-area: 8 / 1 / 10 / 5; }
+.advantagesCard:nth-child(4) { grid-area: 10 / 1 / 12 / 5; }
+.advantagesCard:nth-child(5) { grid-area: 1 / 5 / 3 / 9; }
+.advantagesCard:nth-child(6) { grid-area: 3 / 5 / 5 / 9; }
+.advantagesCard:nth-child(7) { grid-area: 5 / 5 / 7 / 9; }
+.advantagesCard:nth-child(8) { grid-area: 7 / 5 / 9 / 9; }
+.advantagesCard:last-child { grid-area: 9 / 5 / 12 / 9; }
+    
 }
