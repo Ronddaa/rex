@@ -19,3 +19,54 @@ header{
 .svgMainLogo{
     fill:  #2CC1F0;
 }
+
+@media (min-width: 768px){
+    .headerNav{
+        display: block;
+    }
+
+    .wrapperHeaderLogin{
+        display: flex;
+        gap: 11px;
+    }
+
+    .burgerMenuLink{
+        display: none;
+    }
+
+    .headerNavList{
+        display: flex;
+        gap: 24px;
+    }
+
+    .navigationHeaderLink{
+        font-size: 16px;
+        color: #fff;
+        font-weight: 500;
+    }
+
+    .logInBtn{
+        color: #fff;
+        font-size: 16px;
+        padding: 6px 16px;
+        background-color: transparent;
+        border: 1px solid #2C98F0;
+        border-radius: 48px;
+    }
+
+    .createProfileBtn{
+        display: flex;
+        gap: 6px;
+        color: #fff;
+        background-color: #2C98F0;
+        padding: 6px 16px;
+        font-size: 16px;
+        border: 0;
+        border-radius: 48px;
+        align-items: center;
+    }
+
+    .userCreateProfile{
+        fill: #fff;
+    }
+}
