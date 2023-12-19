@@ -47,18 +47,38 @@
     grid-row-gap: 12px;
     }
 
-.advantagesCard:first-child { grid-area: 1 / 1 / 6 / 5; }
-.advantagesCard:nth-child(2) { grid-area: 6 / 1 / 8 / 5; }
-.advantagesCard:nth-child(3) { grid-area: 8 / 1 / 10 / 5; }
-.advantagesCard:nth-child(4) { grid-area: 10 / 1 / 12 / 5; }
-.advantagesCard:nth-child(5) { grid-area: 1 / 5 / 3 / 9; }
-.advantagesCard:nth-child(6) { grid-area: 3 / 5 / 5 / 9; }
-.advantagesCard:nth-child(7) { grid-area: 5 / 5 / 7 / 9; }
-.advantagesCard:nth-child(8) { grid-area: 7 / 5 / 9 / 9; }
-.advantagesCard:last-child { grid-area: 9 / 5 / 12 / 9; }
+    .advantagesCard:first-child { grid-area: 1 / 1 / 6 / 5; }
+    .advantagesCard:nth-child(2) { grid-area: 6 / 1 / 8 / 5; }
+    .advantagesCard:nth-child(3) { grid-area: 8 / 1 / 10 / 5; }
+    .advantagesCard:nth-child(4) { grid-area: 10 / 1 / 12 / 5; }
+    .advantagesCard:nth-child(5) { grid-area: 1 / 5 / 3 / 9; }
+    .advantagesCard:nth-child(6) { grid-area: 3 / 5 / 5 / 9; }
+    .advantagesCard:nth-child(7) { grid-area: 5 / 5 / 7 / 9; }
+    .advantagesCard:nth-child(8) { grid-area: 7 / 5 / 9 / 9; }
+    .advantagesCard:last-child { grid-area: 9 / 5 / 12 / 9; }
     
 }
 
 @media (min-width: 1280px){
-  
+
+    .advantagesCardNone{
+        display: none;
+    }
+
+    .wrapperAdvantages{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    }
+
+    .advantagesCard:first-child { grid-area: 1 / 1 / 3 / 2; }
+    .advantagesCard:nth-child(2) { grid-area: 1 / 2 / 2 / 3; }
+    .advantagesCard:nth-child(3) { grid-area: 1 / 3 / 2 / 4; }
+    .advantagesCard:nth-child(4) { grid-area: 3 / 1 / 4 / 2; }
+    .advantagesCard:nth-child(5) { grid-area: 3 / 2 / 4 / 3; }
+    .advantagesCard:nth-child(6) { grid-area: 2 / 2 / 3 / 3; }
+    .advantagesCard:last-child { grid-area: 2 / 3 / 4 / 4; }
+
 }

@@ -116,9 +116,15 @@
 
     .titleComunicate{
         text-align: left;
+        margin-left: -30px;
     }
 
     .textTitleComunicate{
         text-align: left;
+        margin-left: -30px;
+    }
+
+    .titleTextComunicateCard{
+        padding: 32px 37px 32px 185px;
     }
 }
