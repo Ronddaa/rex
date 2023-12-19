@@ -105,5 +105,20 @@
 }
 
 @media (min-width: 1280px){
-  
+    .wrapperComunicate{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .wrapperComunicateTitle{
+        text-align: left;
+    }
+
+    .titleComunicate{
+        text-align: left;
+    }
+
+    .textTitleComunicate{
+        text-align: left;
+    }
 }
