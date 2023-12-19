@@ -58,10 +58,9 @@ footer{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(2, 1fr);
-        grid-column-gap: 103px;
+        grid-column-gap: 40px;
         grid-row-gap: 32px;  
         position: absolute;
-        z-index: -1;
     }
 
     .footerNavList:first-child { grid-area: 1 / 3 / 2 / 4; }
