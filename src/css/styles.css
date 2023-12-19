@@ -21,6 +21,7 @@
 
 section{
   margin-bottom: 128px;
+  position: relative;
 }
 
 @media (min-width: 768px){
