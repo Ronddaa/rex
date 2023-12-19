@@ -58,3 +58,7 @@
 .advantagesCard:last-child { grid-area: 9 / 5 / 12 / 9; }
     
 }
+
+@media (min-width: 1280px){
+  
+}

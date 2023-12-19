@@ -75,3 +75,10 @@ header{
         fill: #fff;
     }
 }
+
+@media (min-width: 1280px){
+    .headerNav{
+        margin-right: auto;
+        margin-left: 32px;
+    }
+}
