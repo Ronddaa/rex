@@ -28,5 +28,10 @@
 }
 
 @media (min-width: 768px){
-
+    .titleGetStart{
+        font-size: 70px;
+        line-height: 1.2;
+        max-width: 642px;
+        margin: 0 auto 48px;
+    }
 }
