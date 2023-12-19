@@ -1,5 +1,5 @@
 footer{
-    padding-bottom: 30px;
+    margin-bottom: 220px;
 }
 
 .wrapperFooterLogoSocial{
@@ -36,4 +36,44 @@ footer{
 
 @media (min-width: 768px){
 
+    .mainLogoFooter{
+        display: flex;
+        gap: 9px;
+        align-items: center;
+    }
+
+    .wrapperFooter{
+        display: flex;
+        position: relative;
+    }
+
+    .wrapperFooterLogoSocial{
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        gap: 24px;
+    }
+
+    .footerNav{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 103px;
+        grid-row-gap: 32px;  
+        position: absolute;
+        z-index: -1;
+    }
+
+    .footerNavList:first-child { grid-area: 1 / 3 / 2 / 4; }
+    .footerNavList:nth-child(2) { grid-area: 1 / 4 / 2 / 5; }
+    .footerNavList:nth-child(3) { grid-area: 2 / 1 / 3 / 2; }
+    .footerNavList:nth-child(4) { grid-area: 2 / 2 / 3 / 3; }
+    .footerNavList:nth-child(5) { grid-area: 2 / 3 / 3 / 4; }
+    .footerNavList:last-child { grid-area: 2 / 4 / 3 / 5; }
+
+    .spanSvgMainLogoFooter{
+        display: block;
+        font-size: 48px;
+        color: #fff;
+    }
 }
