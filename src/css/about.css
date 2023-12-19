@@ -24,6 +24,10 @@
     font-weight: 700;
 }
 
+.textAboutTitle{
+    font-size: 14px;
+}
+
 .aboutTitleSpan{
     color: #2C98F0;
 }
@@ -49,5 +53,20 @@
 }
 
 @media (min-width: 768px){
+    .wrapperAbout{
+        flex-direction: row;
+        gap: 40px;
+    }
 
+    .wrapperAboutTitle{
+        padding: 45px 32px;
+    }
+
+    .aboutTitle{
+        font-size: 32px;
+    }
+
+    .cardAbout{
+        padding-top: 180px;
+    } 
 }
