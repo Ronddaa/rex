@@ -1,0 +1,55 @@
+.getStartEllipse{
+    position: absolute;
+    z-index: -100;
+    width: 65%;
+    height: 65%;
+    opacity: 0.24;
+    background: var(--GD, #2C98F0);
+    filter: blur(167px);
+    right: 0%;
+    bottom: -40%;
+}
+
+.wrapperGetStart{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.titleGetStart{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 32px;
+}
+
+.spanTitleGetStart{
+    color: #2C98F0;
+}
+
+.getStartBtn{
+    font-size: 24px;
+    font-weight: 700;
+    padding: 12px 24px;
+    color: #fff;
+    background-color: #2C98F0;
+    border: 0;
+    border-radius: 48px;
+    max-width: 178px;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px){
+    .titleGetStart{
+        font-size: 70px;
+        line-height: 1.2;
+        max-width: 642px;
+        margin: 0 auto 48px;
+    }
+}
+
+@media (min-width: 1280px){
+    .titleGetStart{
+        max-width: 100%;
+    }
+}

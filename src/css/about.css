@@ -1,0 +1,103 @@
+
+
+.aboutEllipse{
+    position: absolute;
+    z-index: -100;
+    width: 40%;
+    height: 65%;
+    opacity: 0.24;
+    background: var(--GD, #2C98F0);
+    filter: blur(167px);
+    top: -15%;
+    right: 0;
+}
+
+.wrapperAbout{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.aboutCard{
+    position: relative;
+}
+
+.wrapperAboutTitle{
+    background-color: rgba(11, 49, 80, 0.24);
+    backdrop-filter: blur(7px);
+    padding: 24px 32px;
+    border-radius: 32px;
+    border-top: 6px solid #2C98F0;
+    position: absolute;
+    width: 107%;
+    margin-left: -10px;
+}
+
+.aboutTitle{
+    font-size: 32px;   
+    font-weight: 700;
+}
+
+.textAboutTitle{
+    font-size: 14px;
+}
+
+.aboutTitleSpan{
+    color: #2C98F0;
+}
+
+.cardAbout{
+    border: 1px solid #2C98F0;
+    border-radius: 24px;
+    background-color: rgba(0, 0, 0, 0.24);
+    padding: 153px 20px 24px 63px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.titleListCard{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.textListCard{
+    font-size: 14px;
+    color: #446783;
+}
+
+@media (min-width: 768px){
+    .wrapperAbout{
+        flex-direction: row;
+        gap: 40px;
+    }
+
+    .wrapperAboutTitle{
+        padding: 45px 32px;
+    }
+
+    .aboutTitle{
+        font-size: 32px;
+    }
+
+    .cardAbout{
+        padding-top: 180px;
+    } 
+}
+
+@media (min-width: 1280px){
+
+    .wrapperAbout{
+        margin: 0 auto;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .wrapperAboutTitle{
+        margin-left: -16px;
+    }
+
+    .aboutCard{
+        max-width: 500px;
+    }
+}
