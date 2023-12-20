@@ -1,3 +1,16 @@
+.heroEllipse{
+    position: absolute;
+    z-index: -100;
+    width: 65%;
+    height: 65%;
+    opacity: 0.24;
+    background: var(--GD, #2C98F0);
+    filter: blur(167px);
+    top: -15%;
+    left: -20%;
+
+}
+
 .wrapperHero{
     display: flex;
     flex-direction: column;
