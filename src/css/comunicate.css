@@ -9,6 +9,26 @@
     transform: translate(50%, -100%);
 }
 
+.comunicateSpiralSvg{
+    position: absolute;
+    z-index: -100;
+    transform: translate(-22%, -500%);
+}
+
+.comunicateStarSvg{
+    position: absolute;
+    z-index: -100;
+    top: -10%;
+    right: 10%;
+}
+
+.comunicateWaveSvg{
+    position: absolute;
+    z-index: 50;
+    bottom: -3%;
+    right: 0%;
+}
+
 .wrapperComunicate{
     display: flex;
     flex-direction: column;
