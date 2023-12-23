@@ -1,3 +1,13 @@
+.aboutBublesBackG{
+    position: absolute;
+    max-width: 82%;
+    object-fit: cover;
+    top: 30%;
+    z-index: -100;
+    opacity: 0.3;
+    transform: rotate(-45deg);
+}
+
 .aboutEllipse{
     position: absolute;
     z-index: -100;
@@ -87,6 +97,13 @@
 }
 
 @media (min-width: 768px){
+
+    .aboutBublesBackG{
+        max-width: 65%;
+        top: 10%;
+        left: 15%;
+    }
+
     .wrapperAbout{
         flex-direction: row;
         gap: 40px;
@@ -110,6 +127,13 @@
 }
 
 @media (min-width: 1280px){
+
+    .aboutBublesBackG{
+        top: -25%;
+        left: 5%;
+        max-width: 50%;
+        transform: rotate(150deg);
+    }
 
     .wrapperAbout{
         margin: 0 auto;
