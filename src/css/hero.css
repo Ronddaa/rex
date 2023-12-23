@@ -27,6 +27,18 @@
     height: 26px;
     background-color: #111A2C;
     border-radius: 48px;
+    position: relative;
+}
+
+.heroBitcoin3d{
+    position: absolute;
+    transform: translate(-8%, -40%);
+    z-index: 5;
+}
+
+.heroTether3d{
+    position: absolute;
+    transform: translate(80%, -20%);
 }
 
 .andMainTitle{
@@ -80,6 +92,15 @@
         line-height: 1.2;
     }
 
+    .spanMainTitle{
+        width: 95px;
+        height: 30px;
+    }
+
+    .heroTether3d{
+        transform: translate(95%, -20%);
+    }
+
     .textMainHero{
         font-size: 20px;
         margin-bottom: 40px;
@@ -90,5 +111,11 @@
     .wrapperHero{
         flex-direction: row-reverse;
         align-items: center;
+    }
+
+    .spanMainTitle{
+        width: 100px;
+        height: 38px;
+        background-color: #0f1727;
     }
 }
