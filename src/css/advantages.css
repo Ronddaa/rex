@@ -71,6 +71,7 @@
     color: #2C98F0;
     font-size: 24px;
     font-weight: 700;
+    margin-bottom: 12px;
 }
 
 @media (min-width: 768px){
@@ -101,6 +102,19 @@
     .advantagesCard:nth-child(8) { grid-area: 7 / 5 / 9 / 9; }
     .advantagesCard:last-child { grid-area: 9 / 5 / 12 / 9; }
     
+    .advantagesIconsTether{
+        top: 10%;
+    }
+
+    .advantagesIconsMainLogo{
+        max-width: 276px;
+        max-height: 276px;
+    }
+
+    .advantagesIconsBitcoin{
+        max-width: 96px;
+        max-height: 96px;
+    }
 }
 
 @media (min-width: 1280px){
@@ -125,4 +139,9 @@
     .advantagesCard:nth-child(6) { grid-area: 2 / 2 / 3 / 3; }
     .advantagesCard:last-child { grid-area: 2 / 3 / 4 / 4; }
 
+    .advantagesIconsBitcoin{
+        max-width: 120px;
+        max-height: 120px;
+        bottom: -30%;
+    }
 }
