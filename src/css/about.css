@@ -32,7 +32,7 @@
 
 .wrapperAboutTitle{
     background-color: rgba(11, 49, 80, 0.24);
-    backdrop-filter: blur(7px);
+    backdrop-filter: blur(6px);
     padding: 24px 32px;
     border-radius: 32px;
     border-top: 6px solid #2C98F0;
@@ -96,6 +96,10 @@
     padding: 5px 15px 5px;
 }
 
+.aboutCardBublesTop{
+    display: none;
+}
+
 @media (min-width: 768px){
 
     .aboutBublesBackG{
@@ -123,6 +127,15 @@
 
     .iconNextToTextAbout{
         left: -25%;
+    }
+
+    .aboutCardBublesTop{
+        display: block;
+        position: absolute;
+        top: -15%;
+        right: 2%;
+        opacity: 0.8;
+        z-index: -100;
     }
 }
 

@@ -35,6 +35,38 @@
     padding: 20px 16px;
 }
 
+.advantagesCard:first-child{
+    padding-top: 50px;
+}
+
+.wrapperAdvantagesCardIcons{
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.advantagesIconsTether{
+    position: absolute;
+    top: 50%;
+    left: -5%;
+}
+
+.advantagesIconsMainLogo{
+    position: relative;
+    margin: 0 auto;
+    margin-top: -75px;
+    max-width: 180px;
+    max-height: 180px;
+}
+
+.advantagesIconsBitcoin{
+    position: absolute;
+    bottom: -20%;
+    right: 0%;
+    max-width: 68px;
+    max-height: 68px;
+}
+
 .titleAdvantagesCard{
     color: #2C98F0;
     font-size: 24px;
