@@ -13,6 +13,19 @@
 @import url('./advantages.css');
 @import url('./footer.css');
 
+::-webkit-scrollbar{
+  width: 8px;
+}
+
+::-webkit-scrollbar-track{
+  background-color: #000;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #2C98F0;
+  border-radius: 50px;
+}
+
 .container{
   max-width: 360px;
   padding: 0 20px;
