@@ -74,6 +74,27 @@
     margin-bottom: 12px;
 }
 
+.wrapperAdvantagesCardSVG{
+    position: relative;
+    height: 200px;
+}
+
+.advantagesIconsBase{
+    position: absolute;
+    left: -10%;
+}
+
+.advantagesIconsBinance{
+    position: absolute;
+    bottom: -60%;
+}
+
+.advantagesIconsKraken{
+    position: absolute;
+    bottom: 0;
+    right: -20%;
+}
+
 @media (min-width: 768px){
 
     .advantagesCardNone{
